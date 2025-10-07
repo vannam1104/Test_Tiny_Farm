@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba9400894ed68d41aac7adfd6d6ec71, type: 3}
+  m_Name: Crop_Dau
+  m_EditorClassIdentifier: 
+  CropName: Crop_dau
+  growthSprites:
+  - {fileID: -126528068, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: 26084442, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: -1015036702, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: -986292988, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: -1734702499, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: -564195878, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  growthTimes:
+  - 30
+  - 30
+  - 30
+  - 30
+  - 30
+  - 30
+  harvestYield: 1
+  harvestItem: {fileID: 11400000, guid: 76bc24f9e947fcb4b943dccc1846b14c, type: 2}
