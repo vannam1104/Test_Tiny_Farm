@@ -14,10 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemCode: 201
   itemType: 1
-  itemName: no-name
+  itemName: Potato
   icon: {fileID: -1818273862, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
-  defaultMaxStack: 999
+  maxStack: 999
+  buyPrice: 0
+  sellPrice: 0
+  canBeDropped: 1
+  canBeSold: 1
+  description: 
   cropToGrow: {fileID: 11400000, guid: 6ab7257dc43699543bf9dfe11fa9a0cb, type: 2}
-  cost: 5
-  quantityOnUse: 1
-  seedSprite: {fileID: -1865649960, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  daysToGrow: 4
+  growStages:
+  - {fileID: -1865649960, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: 655418510, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: 1896927217, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: -1358249037, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: 1505149083, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: 1044605678, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: 279057642, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  validSeasons: 00000000
+  maxYield: 1

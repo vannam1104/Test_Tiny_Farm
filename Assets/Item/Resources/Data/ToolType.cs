@@ -1,9 +1,20 @@
-﻿
-public enum ToolType
+﻿using UnityEngine;
+
+namespace TinyFarm.Items
 {
-    NoType,
-    Hoe,          // cuốc đất
-    WaterCan,     // bình nước
-    Sword,        // chém cận chiến
-    Bow,          // bắn xa
+    public enum ToolType
+    {
+        NoType,
+        Hoe,          // cuốc đất
+        WaterCan,     // bình nước
+        Sword,        // kiem
+        Bow,          // cung
+        Helmet,       // Mu
+        Armor,        // Ao
+        Pants,        // Quan
+        Boots,        // Giay
+        Gloves        // Gang tay
+
+    }
 }
+

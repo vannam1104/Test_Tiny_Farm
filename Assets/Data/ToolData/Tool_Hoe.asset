@@ -14,10 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemCode: 300
   itemType: 3
-  itemName: no-name
+  itemName: Cuoc
   icon: {fileID: 0}
-  defaultMaxStack: 1
+  maxStack: 1
+  buyPrice: 0
+  sellPrice: 0
+  canBeDropped: 0
+  canBeSold: 1
+  description: "D\xF9ng \u0111\u1EC3 c\xE0y \u0111\u1EA5t tr\u1ED3ng tr\u1ECDt"
   toolCode: 10
   toolType: 1
+  maxDurability: 100
   durability: 100
   efficiency: 1
+  useCooldown: 0.5
+  canBeUpgraded: 1
+  upgradedVersion: {fileID: 0}
+  upgradeCost: 0

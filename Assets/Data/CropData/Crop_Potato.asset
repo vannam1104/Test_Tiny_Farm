@@ -12,22 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ba9400894ed68d41aac7adfd6d6ec71, type: 3}
   m_Name: Crop_Potato
   m_EditorClassIdentifier: 
-  CropName: Crop_Potato
-  growthSprites:
-  - {fileID: -1865649960, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
-  - {fileID: 655418510, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
-  - {fileID: 1896927217, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
-  - {fileID: -1358249037, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
-  - {fileID: 1505149083, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
-  - {fileID: 1044605678, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
-  - {fileID: 279057642, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
-  growthTimes:
-  - 60
-  - 60
-  - 60
-  - 60
-  - 60
-  - 60
-  - 60
-  harvestYield: 1
-  harvestItem: {fileID: 11400000, guid: 0fe4abf1195daca45abd5ad120c8d888, type: 2}
+  itemCode: 101
+  itemType: 2
+  itemName: Potato
+  icon: {fileID: -1849613582, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  maxStack: 999
+  buyPrice: 0
+  sellPrice: 0
+  canBeDropped: 1
+  canBeSold: 1
+  description: 
+  category: 0
+  isEdible: 0

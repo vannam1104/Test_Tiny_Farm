@@ -14,10 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemCode: 200
   itemType: 1
-  itemName: no-name
+  itemName: Dau
   icon: {fileID: 73353371, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
-  defaultMaxStack: 999
+  maxStack: 999
+  buyPrice: 0
+  sellPrice: 0
+  canBeDropped: 1
+  canBeSold: 1
+  description: 
   cropToGrow: {fileID: 11400000, guid: f72df8591ef33524896e3e3c5d46ab65, type: 2}
-  cost: 5
-  quantityOnUse: 1
-  seedSprite: {fileID: -126528068, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  daysToGrow: 4
+  growStages:
+  - {fileID: -126528068, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: 26084442, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: -1015036702, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: -986292988, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: -1734702499, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  - {fileID: -564195878, guid: 1bdbf7d8c6f931849b3b79f42830c9d2, type: 3}
+  validSeasons: 00000000
+  maxYield: 1

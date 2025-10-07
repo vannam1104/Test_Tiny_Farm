@@ -1,4 +1,4 @@
-
+﻿
 public enum ItemType
 {
    NoType,
@@ -6,5 +6,8 @@ public enum ItemType
    Crop, // Sp thu hoach
    Tool, // Dung cu
    Material, // Nguyen lieu
-   AnimalProduct // Sp dong vat
+   Equipment, // Trang bi nang cap
+   AnimalProduct, // Sp dong vat
+   Coin,    // Tien te
+   Consumable     // Vật phẩm tiêu hao
 }
