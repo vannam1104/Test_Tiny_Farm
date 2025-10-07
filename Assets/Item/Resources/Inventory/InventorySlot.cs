@@ -29,7 +29,7 @@ public class InventorySlot
         return itemData == null || quantity <= 0;
     }
 
-    // Kiểm tra có thể thêm item vào slot này không
+    // Kiểm tra có thể thêm item vào slot này khôngg
     public bool CanAddItem(ItemData item)
     {
         return IsEmpty() || (itemData == item && quantity < itemData.maxStack);
